@@ -15,6 +15,5 @@ You can run each package in UI mode using `npx cypress open` or `npx playwright 
 
 ### Disclaimer and limitations
 
-- The tests from each framework should be run in headless mode due to cloudflare blocking access to the test runs when running them in UI mode. 
+- The tests from each framework should be run in headless mode due to cloudflare blocking access to the test runs when running them in UI mode - the playwright tests also fail intermittently due to cloudflare restrictions
 - The playwright test will fail when running npx cypress run due to both tests having the same spec pattern (spec.ts) but they both pass when run individually
-- Assertions can be flaky due to the apply button failing to click intermittently

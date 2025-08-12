@@ -9,7 +9,6 @@ Cypress.Commands.add('goToCameraPage', () => {
             "Accept": "application/json, text/plain, */*",
             "User-Agent": "axios/3.19.0",
             'x-test-bypass': 'true'
-
         },
     };
 });
