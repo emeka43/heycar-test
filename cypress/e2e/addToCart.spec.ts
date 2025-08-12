@@ -2,9 +2,7 @@
 
 import cypressTexts from '../support/texts.json';
 
-
 describe('I want to test the address modal functionality', () => {
-
     it('Navigates to the camera page and verifies the address modal appears', () => {
         cy.goToCameraPage();
         cy.contains(cypressTexts.cameras.nikonD5500).click(); //navigates to Nikon D5500 page
