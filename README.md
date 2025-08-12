@@ -9,6 +9,7 @@
 ### Set-up 
 - Clone the repo 
 - Upon opening the repo, run `npm install` to install all packages
+- Install playwright browsers with `npx playwright install`
 - Run the Cypress tests using `npx cypress run` or the playwright tests with `npx playwright test`
 
 You can run each package in UI mode using `npx cypress open` or `npx playwright test --ui` 
