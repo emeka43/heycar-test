@@ -1,0 +1,20 @@
+# Emeka's Final Interview at HeyCar
+- In this repo you'll find Emeka's tests for the demo ecommerce app! 
+
+### Tools of the trade 
+
+- Cypress
+- Playwright
+
+### Set-up 
+- Clone the repo 
+- Upon opening the repo, run `npm install` to install all packages
+- Run the Cypress tests using `npx cypress run` or the playwright tests with `npx playwright test`
+
+You can run each package in UI mode using `npx cypress open` or `npx playwright test --ui` 
+
+### Disclaimer and limitations
+
+- The tests from each framework should be run in headless mode due to cloudflare blocking access to the test runs when running them in UI mode. 
+- The playwright test will fail when running npx cypress run due to both tests having the same spec pattern (spec.ts) but they both pass when run individually
+- Assertions can be flaky due to the apply button failing to click intermittently

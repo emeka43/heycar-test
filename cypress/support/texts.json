@@ -1,0 +1,18 @@
+{
+    "cameras": {
+        "nikonD5500": "Nikon D5500 DSLR"
+    },
+    "modal": {
+        "shippingMethod": "Shipping Method",
+        "Name": "Name",
+        "estimatedDelivery": "Estimated Delivery",
+        "price": "Price",
+        "ApplyButton": "Apply",
+        "noShipOptions": "No shipping options"
+    },
+    "dropdown": {
+        "UK": "United Kingdom of Great Britain and Northern Ireland",
+        "london": "Greater London",
+        "londonPostCode": "EC1A 1BB"
+    }
+}
