@@ -1,4 +1,4 @@
-# Emeka's Final Interview at HeyCar
+# Heycar Demo Commerce Test
 - In this repo you'll find Emeka's tests for the demo ecommerce app! 
 
 ### Frameworks used
