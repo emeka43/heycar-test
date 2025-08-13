@@ -1,12 +1,13 @@
 # Emeka's Final Interview at HeyCar
 - In this repo you'll find Emeka's tests for the demo ecommerce app! 
 
-### Tools of the trade 
+### Frameworks used
 
 - Cypress
 - Playwright
 
-### Set-up 
+### Set-up
+Prerequisites: You must have node installed
 - Clone the repo 
 - Upon opening the repo, run `npm install` to install all packages
 - Install playwright browsers with `npx playwright install`
